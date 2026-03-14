@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#080808"/>
+      <stop offset="45%" style="stop-color:#0f0a0a"/>
+      <stop offset="100%" style="stop-color:#1a0505"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8372d;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#080808;stop-opacity:0"/>
+    </linearGradient>
+    <radialGradient id="ballGlow" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" style="stop-color:#fff8e1"/>
+      <stop offset="100%" style="stop-color:#c9a84c"/>
+    </radialGradient>
+    <radialGradient id="pulseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#c8372d;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#c8372d;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="ballFilter">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#redGlow)"/>
+
+  <!-- Diagonal right panel -->
+  <polygon points="480,0 1200,0 1200,675 540,675" fill="#110808" opacity="0.9"/>
+
+  <!-- Red pulse glow -->
+  <ellipse cx="850" cy="320" rx="260" ry="240" fill="url(#pulseGlow)"/>
+
+  <!-- Noise texture overlay -->
+  <rect width="1200" height="675" fill="url(#bg)" opacity="0.04"/>
+
+  <!-- NAV -->
+  <rect width="1200" height="72" fill="rgba(8,8,8,0.95)"/>
+  <!-- Logo -->
+  <text x="60" y="46" font-family="Georgia, serif" font-size="28" font-weight="900" letter-spacing="6" fill="#f5f0e8">TEN</text>
+  <text x="119" y="46" font-family="Georgia, serif" font-size="28" font-weight="900" letter-spacing="6" fill="#c8372d">S</text>
+  <line x1="60" y1="50" x2="145" y2="50" stroke="#c8372d" stroke-width="1" opacity="0.6"/>
+  <!-- Nav links -->
+  <text x="780" y="42" font-family="Arial" font-size="11" letter-spacing="3" fill="rgba(245,240,232,0.45)" text-transform="uppercase">SERVICES</text>
+  <text x="890" y="42" font-family="Arial" font-size="11" letter-spacing="3" fill="rgba(245,240,232,0.45)">ABOUT</text>
+  <text x="975" y="42" font-family="Arial" font-size="11" letter-spacing="3" fill="rgba(245,240,232,0.45)">ATHLETES</text>
+  <!-- CTA button -->
+  <rect x="1080" y="22" width="88" height="32" fill="none" stroke="#c8372d" stroke-width="1" opacity="0.6"/>
+  <text x="1124" y="42" font-family="Arial" font-size="10" letter-spacing="2.5" fill="#c8372d" text-anchor="middle">JOIN US</text>
+
+  <!-- Eyebrow -->
+  <line x1="60" y1="168" x2="100" y2="168" stroke="#c8372d" stroke-width="1"/>
+  <text x="112" y="173" font-family="Arial" font-size="11" letter-spacing="4" fill="#c8372d">ELITE TABLE TENNIS AGENCY</text>
+
+  <!-- Main Title -->
+  <text x="55" y="290" font-family="Georgia, serif" font-size="128" font-weight="900" letter-spacing="4" fill="#f5f0e8">MASTER</text>
+  <text x="55" y="410" font-family="Georgia, serif" font-size="128" font-weight="900" letter-spacing="4" fill="none" stroke="rgba(245,240,232,0.2)" stroke-width="1">THE</text>
+  <text x="310" y="410" font-family="Georgia, serif" font-size="128" font-weight="900" letter-spacing="4" fill="#c8372d"> GAME</text>
+
+  <!-- Subtitle italic -->
+  <text x="60" y="468" font-family="Georgia, serif" font-style="italic" font-size="15" fill="rgba(245,240,232,0.4)">Where precision meets performance. TENS represents the world's finest</text>
+  <text x="60" y="488" font-family="Georgia, serif" font-style="italic" font-size="15" fill="rgba(245,240,232,0.4)">table tennis talent — building legacies, one rally at a time.</text>
+
+  <!-- Buttons -->
+  <rect x="60" y="518" width="160" height="46" fill="#c8372d"/>
+  <text x="140" y="546" font-family="Arial" font-size="11" letter-spacing="2.5" fill="#f5f0e8" text-anchor="middle">OUR SERVICES</text>
+  <text x="260" y="546" font-family="Arial" font-size="11" letter-spacing="2" fill="rgba(245,240,232,0.55)">MEET ATHLETES  →</text>
+
+  <!-- Stats panel (right) -->
+  <text x="1100" y="430" font-family="Georgia, serif" font-size="52" font-weight="900" fill="#f5f0e8" text-anchor="middle">48<tspan fill="#c8372d">+</tspan></text>
+  <text x="1100" y="453" font-family="Arial" font-size="10" letter-spacing="3" fill="rgba(245,240,232,0.35)" text-anchor="middle">WORLD RANKINGS</text>
+  <line x1="1070" y1="462" x2="1130" y2="462" stroke="rgba(200,55,45,0.4)" stroke-width="1"/>
+
+  <text x="1100" y="510" font-family="Georgia, serif" font-size="52" font-weight="900" fill="#f5f0e8" text-anchor="middle">12<tspan fill="#c8372d">M</tspan></text>
+  <text x="1100" y="533" font-family="Arial" font-size="10" letter-spacing="3" fill="rgba(245,240,232,0.35)" text-anchor="middle">PRIZE MONEY</text>
+  <line x1="1070" y1="542" x2="1130" y2="542" stroke="rgba(200,55,45,0.4)" stroke-width="1"/>
+
+  <text x="1100" y="588" font-family="Georgia, serif" font-size="52" font-weight="900" fill="#f5f0e8" text-anchor="middle">9<tspan fill="#c8372d">+</tspan></text>
+  <text x="1100" y="611" font-family="Arial" font-size="10" letter-spacing="3" fill="rgba(245,240,232,0.35)" text-anchor="middle">YEARS ACTIVE</text>
+
+  <!-- Animated ball arc (static representation) -->
+  <path d="M -10,540 Q 300,160 600,300 Q 900,440 1210,500" stroke="rgba(201,168,76,0.15)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <circle cx="600" cy="300" r="10" fill="url(#ballGlow)" filter="url(#ballFilter)"/>
+  <circle cx="320" cy="240" r="7" fill="url(#ballGlow)" filter="url(#ballFilter)" opacity="0.6"/>
+  <circle cx="880" cy="370" r="8" fill="url(#ballGlow)" filter="url(#ballFilter)" opacity="0.4"/>
+
+  <!-- Table line at bottom -->
+  <line x1="0" y1="670" x2="1200" y2="670" stroke="rgba(200,55,45,0.25)" stroke-width="1.5"/>
+  <line x1="595" y1="630" x2="605" y2="670" stroke="rgba(201,168,76,0.3)" stroke-width="2"/>
+
+  <!-- Corner decoration -->
+  <rect x="0" y="0" width="3" height="675" fill="#c8372d" opacity="0.4"/>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="cardHover" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8372d;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#080808"/>
+
+  <!-- Faint SERVICES watermark -->
+  <text x="600" y="200" font-family="Georgia,serif" font-size="180" font-weight="900" fill="none" stroke="rgba(245,240,232,0.03)" stroke-width="1" text-anchor="middle" letter-spacing="8">SERVICES</text>
+
+  <!-- Section header -->
+  <line x1="60" y1="82" x2="90" y2="82" stroke="#c8372d" stroke-width="1"/>
+  <text x="102" y="87" font-family="Arial" font-size="11" letter-spacing="4" fill="#c8372d">WHAT WE DO</text>
+  <text x="58" y="148" font-family="Georgia,serif" font-size="64" font-weight="900" fill="#f5f0e8" letter-spacing="2">AGENCY</text>
+  <text x="58" y="208" font-family="Georgia,serif" font-size="64" font-weight="900" fill="#f5f0e8" letter-spacing="2">SERVICES</text>
+  <text x="860" y="148" font-family="Georgia,serif" font-style="italic" font-size="13" fill="rgba(245,240,232,0.35)" text-anchor="end" width="280">From grassroots talent to world champions —</text>
+  <text x="860" y="168" font-family="Georgia,serif" font-style="italic" font-size="13" fill="rgba(245,240,232,0.35)" text-anchor="end">TENS is the full service platform</text>
+  <text x="860" y="188" font-family="Georgia,serif" font-style="italic" font-size="13" fill="rgba(245,240,232,0.35)" text-anchor="end">your career deserves.</text>
+
+  <!-- Grid: 3 columns x 2 rows -->
+  <!-- Row 1 -->
+  <!-- Card 1 (hovered state) -->
+  <rect x="58" y="240" width="352" height="190" fill="#111111"/>
+  <rect x="58" y="240" width="352" height="190" fill="url(#cardHover)"/>
+  <text x="78" y="268" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d" opacity="0.6">01</text>
+  <circle cx="100" cy="306" r="18" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <circle cx="100" cy="306" r="10" fill="none" stroke="#c8372d" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="78" y="356" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#c8372d" letter-spacing="1">ATHLETE MANAGEMENT</text>
+  <text x="78" y="378" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Full-spectrum career management for</text>
+  <text x="78" y="396" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">elite table tennis professionals.</text>
+  <text x="388" y="418" font-family="Arial" font-size="20" fill="#c8372d" text-anchor="end">→</text>
+
+  <!-- Card 2 -->
+  <rect x="424" y="240" width="352" height="190" fill="#1a1a1a"/>
+  <text x="444" y="268" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d" opacity="0.6">02</text>
+  <rect x="438" y="286" width="28" height="28" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <line x1="452" y1="286" x2="452" y2="314" stroke="#c8372d" stroke-width="1" opacity="0.4"/>
+  <rect x="444" y="298" width="4" height="8" fill="#c8372d" opacity="0.6"/>
+  <rect x="454" y="293" width="4" height="13" fill="#c8372d" opacity="0.4"/>
+  <text x="444" y="356" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#f5f0e8" letter-spacing="1">SPONSORSHIP &amp; BRAND</text>
+  <text x="444" y="378" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Connect athletes with premium brands.</text>
+  <text x="444" y="396" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Partnerships that resonate and endure.</text>
+
+  <!-- Card 3 -->
+  <rect x="790" y="240" width="352" height="190" fill="#1a1a1a"/>
+  <text x="810" y="268" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d" opacity="0.6">03</text>
+  <polygon points="822,314 834,288 846,314" fill="none" stroke="#c8372d" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="834" cy="307" r="4" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <text x="810" y="356" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#f5f0e8" letter-spacing="1">TOURNAMENT STRATEGY</text>
+  <text x="810" y="378" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Precision planning for global events.</text>
+  <text x="810" y="396" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Optimized rankings &amp; performance.</text>
+
+  <!-- Row 2 -->
+  <!-- Card 4 -->
+  <rect x="58" y="434" width="352" height="190" fill="#1a1a1a"/>
+  <text x="78" y="462" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d" opacity="0.6">04</text>
+  <circle cx="100" cy="498" r="10" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <path d="M88,520 C88,512 112,512 112,520" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <text x="78" y="548" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#f5f0e8" letter-spacing="1">COACHING NETWORK</text>
+  <text x="78" y="570" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Access elite coaches worldwide.</text>
+  <text x="78" y="588" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Technical &amp; mental conditioning.</text>
+
+  <!-- Card 5 -->
+  <rect x="424" y="434" width="352" height="190" fill="#1a1a1a"/>
+  <text x="444" y="462" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d" opacity="0.6">05</text>
+  <rect x="436" y="480" width="32" height="22" rx="2" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <line x1="436" y1="488" x2="468" y2="488" stroke="#c8372d" stroke-width="1" opacity="0.4"/>
+  <text x="444" y="548" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#f5f0e8" letter-spacing="1">MEDIA &amp; PR</text>
+  <text x="444" y="570" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Amplify athlete narratives globally.</text>
+  <text x="444" y="588" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Press, social &amp; content strategy.</text>
+
+  <!-- Card 6 -->
+  <rect x="790" y="434" width="352" height="190" fill="#1a1a1a"/>
+  <text x="810" y="462" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d" opacity="0.6">06</text>
+  <polygon points="834,480 838,492 850,492 840,499 843,511 834,504 825,511 828,499 818,492 830,492" fill="none" stroke="#c8372d" stroke-width="1.5"/>
+  <text x="810" y="548" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#f5f0e8" letter-spacing="1">LEGACY PLANNING</text>
+  <text x="810" y="570" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">Post-career transition &amp; investment.</text>
+  <text x="810" y="588" font-family="Arial" font-size="12" fill="rgba(245,240,232,0.4)">We protect athletes beyond the sport.</text>
+
+  <!-- gap lines between cards -->
+  <line x1="410" y1="240" x2="410" y2="624" stroke="#080808" stroke-width="4"/>
+  <line x1="776" y1="240" x2="776" y2="624" stroke="#080808" stroke-width="4"/>
+  <line x1="58" y1="430" x2="1142" y2="430" stroke="#080808" stroke-width="4"/>
+</svg>

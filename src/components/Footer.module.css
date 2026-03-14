@@ -1,0 +1,31 @@
+.footer {
+  border-top: 1px solid rgba(245,240,232,0.06);
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+}
+.logo span { color: var(--red); }
+.copy {
+  font-size: 0.75rem;
+  color: rgba(245,240,232,0.25);
+  letter-spacing: 0.1em;
+}
+.links {
+  display: flex;
+  gap: 32px;
+}
+.links a {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(245,240,232,0.3);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.links a:hover { color: var(--red); }

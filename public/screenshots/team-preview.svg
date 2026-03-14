@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="cardFade1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="40%" style="stop-color:#050505;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#050505;stop-opacity:0.96"/>
+    </linearGradient>
+    <linearGradient id="cardFade2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="40%" style="stop-color:#050505;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#050505;stop-opacity:0.96"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#050505"/>
+
+  <!-- Section header -->
+  <line x1="60" y1="62" x2="90" y2="62" stroke="#c8372d" stroke-width="1"/>
+  <text x="102" y="67" font-family="Arial" font-size="11" letter-spacing="4" fill="#c8372d">ROSTER</text>
+  <text x="58" y="128" font-family="Georgia,serif" font-size="64" font-weight="900" fill="#f5f0e8" letter-spacing="2">OUR</text>
+  <text x="58" y="188" font-family="Georgia,serif" font-size="64" font-weight="900" fill="#f5f0e8" letter-spacing="2">ATHLETES</text>
+  <text x="1100" y="148" font-family="Georgia,serif" font-style="italic" font-size="13" fill="rgba(245,240,232,0.35)" text-anchor="end">A carefully curated roster of the</text>
+  <text x="1100" y="168" font-family="Georgia,serif" font-style="italic" font-size="13" fill="rgba(245,240,232,0.35)" text-anchor="end">world's most exciting talent.</text>
+
+  <!-- Card 1 — Kai Zhang (hovered) -->
+  <rect x="58" y="220" width="270" height="420" fill="#1a1a1a"/>
+  <!-- silhouette -->
+  <ellipse cx="193" cy="295" rx="22" ry="25" fill="white" opacity="0.07"/>
+  <path d="M158,335 Q193,318 228,335 L232,400 L216,400 L211,450 L175,450 L170,400 L154,400 Z" fill="white" opacity="0.07"/>
+  <rect x="148" y="335" width="24" height="56" rx="8" fill="white" opacity="0.05" transform="rotate(-18 160 363)"/>
+  <!-- red accent bar -->
+  <rect x="58" y="220" width="3" height="420" fill="#c8372d"/>
+  <!-- overlay -->
+  <rect x="58" y="220" width="270" height="420" fill="url(#cardFade1)"/>
+  <!-- info -->
+  <text x="78" y="572" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d">WORLD #3</text>
+  <text x="78" y="600" font-family="Georgia,serif" font-size="26" font-weight="900" fill="#f5f0e8">Kai Zhang</text>
+  <text x="78" y="622" font-family="Arial" font-size="11" letter-spacing="2" fill="rgba(245,240,232,0.4)">ATTACKER · CHINA</text>
+  <!-- stats (hovered) -->
+  <text x="78" y="646" font-family="Georgia,serif" font-size="18" font-weight="900" fill="#c9a84c">94%</text>
+  <text x="78" y="660" font-family="Arial" font-size="10" fill="rgba(245,240,232,0.45)">Win Rate</text>
+  <text x="160" y="646" font-family="Georgia,serif" font-size="18" font-weight="900" fill="#c9a84c">12</text>
+  <text x="160" y="660" font-family="Arial" font-size="10" fill="rgba(245,240,232,0.45)">Titles</text>
+
+  <!-- Card 2 — Lena Müller -->
+  <rect x="332" y="220" width="270" height="420" fill="#1a1a1a"/>
+  <ellipse cx="467" cy="295" rx="22" ry="25" fill="white" opacity="0.07"/>
+  <path d="M432,335 Q467,318 502,335 L506,400 L490,400 L485,450 L449,450 L444,400 L428,400 Z" fill="white" opacity="0.07" transform="scale(-1,1) translate(-934,0)"/>
+  <rect x="332" y="220" width="270" height="420" fill="url(#cardFade2)"/>
+  <text x="352" y="572" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d">WORLD #7</text>
+  <text x="352" y="600" font-family="Georgia,serif" font-size="26" font-weight="900" fill="#f5f0e8">Lena Müller</text>
+  <text x="352" y="622" font-family="Arial" font-size="11" letter-spacing="2" fill="rgba(245,240,232,0.4)">DEFENDER · GERMANY</text>
+
+  <!-- Card 3 — Ryu Tanaka -->
+  <rect x="606" y="220" width="270" height="420" fill="#1a1a1a"/>
+  <ellipse cx="741" cy="295" rx="22" ry="25" fill="white" opacity="0.07"/>
+  <path d="M706,335 Q741,318 776,335 L780,400 L764,400 L759,450 L723,450 L718,400 L702,400 Z" fill="white" opacity="0.07"/>
+  <rect x="606" y="220" width="270" height="420" fill="url(#cardFade1)"/>
+  <text x="626" y="572" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d">WORLD #11</text>
+  <text x="626" y="600" font-family="Georgia,serif" font-size="26" font-weight="900" fill="#f5f0e8">Ryu Tanaka</text>
+  <text x="626" y="622" font-family="Arial" font-size="11" letter-spacing="2" fill="rgba(245,240,232,0.4)">ALL-ROUND · JAPAN</text>
+
+  <!-- Card 4 — Priya Nair -->
+  <rect x="880" y="220" width="270" height="420" fill="#1a1a1a"/>
+  <ellipse cx="1015" cy="295" rx="22" ry="25" fill="white" opacity="0.07"/>
+  <path d="M980,335 Q1015,318 1050,335 L1054,400 L1038,400 L1033,450 L997,450 L992,400 L976,400 Z" fill="white" opacity="0.07" transform="scale(-1,1) translate(-2030,0)"/>
+  <rect x="880" y="220" width="270" height="420" fill="url(#cardFade2)"/>
+  <text x="900" y="572" font-family="Arial" font-size="10" letter-spacing="3" fill="#c8372d">WORLD #18</text>
+  <text x="900" y="600" font-family="Georgia,serif" font-size="26" font-weight="900" fill="#f5f0e8">Priya Nair</text>
+  <text x="900" y="622" font-family="Arial" font-size="11" letter-spacing="2" fill="rgba(245,240,232,0.4)">ATTACKER · INDIA</text>
+
+  <!-- gap lines -->
+  <line x1="328" y1="220" x2="328" y2="640" stroke="#050505" stroke-width="6"/>
+  <line x1="602" y1="220" x2="602" y2="640" stroke="#050505" stroke-width="6"/>
+  <line x1="876" y1="220" x2="876" y2="640" stroke="#050505" stroke-width="6"/>
+</svg>

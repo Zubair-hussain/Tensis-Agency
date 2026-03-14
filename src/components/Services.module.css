@@ -1,0 +1,79 @@
+.section {
+  padding: 140px 60px;
+  position: relative;
+}
+.section::before {
+  content: 'SERVICES';
+  position: absolute;
+  top: 80px; left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18vw;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(245,240,232,0.03);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+.header { margin-bottom: 80px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.card {
+  background: var(--dim);
+  padding: 50px 40px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.4s;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(200,55,45,0.08), transparent);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.card:hover::before { opacity: 1; }
+.card:hover { background: #111; }
+.num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.9rem;
+  color: var(--red);
+  letter-spacing: 0.2em;
+  margin-bottom: 40px;
+  opacity: 0.6;
+}
+.icon {
+  width: 48px; height: 48px;
+  margin-bottom: 28px;
+}
+.icon svg { width: 100%; height: 100%; }
+.name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+  transition: color 0.3s;
+}
+.card:hover .name { color: var(--red); }
+.desc {
+  font-size: 0.85rem;
+  color: rgba(245,240,232,0.4);
+  line-height: 1.8;
+}
+.arrow {
+  position: absolute;
+  bottom: 40px; right: 40px;
+  font-size: 1.4rem;
+  color: var(--red);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.card:hover .arrow {
+  opacity: 1;
+  transform: translateX(0);
+}

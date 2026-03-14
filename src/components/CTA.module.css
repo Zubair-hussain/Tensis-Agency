@@ -1,0 +1,62 @@
+.section {
+  padding: 160px 60px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(200,55,45,0.12) 0%, transparent 70%);
+}
+.tag {
+  justify-content: center;
+}
+.title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 1;
+  letter-spacing: 0.03em;
+  margin: 16px 0 24px;
+}
+.title em {
+  font-style: normal;
+  color: var(--red);
+  text-shadow: 0 0 60px rgba(200,55,45,0.5);
+}
+.sub {
+  font-size: 1rem;
+  color: rgba(245,240,232,0.4);
+  max-width: 500px;
+  margin: 0 auto 48px;
+  line-height: 1.8;
+}
+.btn {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid var(--red);
+  color: var(--white);
+  padding: 20px 60px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.25em;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.4s;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--red);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.4s ease;
+}
+.btn:hover::before { transform: scaleY(1); }
+.btn span {
+  position: relative;
+  z-index: 1;
+}

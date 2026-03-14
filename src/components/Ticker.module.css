@@ -1,0 +1,31 @@
+.ticker {
+  background: var(--red);
+  padding: 14px 0;
+  overflow: hidden;
+}
+.inner {
+  display: flex;
+  gap: 0;
+  white-space: nowrap;
+  animation: ticker 22s linear infinite;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.15em;
+  color: rgba(245,240,232,0.85);
+}
+.dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: rgba(245,240,232,0.4);
+  flex-shrink: 0;
+}
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
