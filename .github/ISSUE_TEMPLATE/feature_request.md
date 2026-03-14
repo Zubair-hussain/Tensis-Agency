@@ -2,7 +2,7 @@
 name: ✨ Feature Request
 about: Got an idea to make TENS better? We'd love to hear it.
 labels: enhancement
-assignees: ''
+assignees: '' 
 ---
 
 ## ✨ Feature Summary
