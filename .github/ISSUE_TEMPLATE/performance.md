@@ -13,7 +13,7 @@ assignees: ''
 - [ ] Ticker / Marquee scrolling
 - [ ] Services card hover
 - [ ] Team section
-- [ ] Page load / initial render
+- [ ] Page load / initial render 
 - [ ] Other: ___
 
 ## Device & Context
