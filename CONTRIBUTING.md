@@ -5,7 +5,7 @@ Thanks for your interest in contributing! Here's how to get involved.
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tens-agency.git
+git clone https://github.com/Zubair-hussain/tens-agency.git
 cd tens-agency
 npm install
 npm run dev
@@ -50,4 +50,4 @@ src/
 ## Code of Conduct
 
 Be respectful. Focus on the code, not the person.  
-Questions? Open an issue or email [hello@tensagency.com](mailto:hello@tensagency.com).
+Questions? Open an issue or email [Email me (thezubairh@gmail.com).
